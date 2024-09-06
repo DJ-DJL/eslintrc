@@ -17,6 +17,7 @@ export const general = {
         "eslint-comments/require-description": "error",
         "sonarjs/cognitive-complexity": ["error", 10],
         "sonarjs/todo-tag": "warn",
+        "sonarjs/no-commented-code": "off",
         "no-else-return": ["error", { "allowElseIf": false }]
     }
 }
